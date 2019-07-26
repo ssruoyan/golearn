@@ -1,0 +1,1 @@
+Go program language study notes, to record basic grammar learning and some solutions of leetcode algorithm problems.
