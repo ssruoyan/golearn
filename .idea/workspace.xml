@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1e76ad-8995-48ec-9cdb-c4bba33f3d02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/data-structure/stack/stack.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/data-structure/linkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/data-structure/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/intToRoman.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +37,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/proc.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/asm_amd64.s">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
@@ -77,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/data-structure/stack/stack.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="84">
               <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/intToRoman.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -146,6 +144,7 @@
         <option value="$PROJECT_DIR$/basic/data-structure/stack.go" />
         <option value="$PROJECT_DIR$/basic/data-structure/main.go" />
         <option value="$PROJECT_DIR$/basic/data-structure/stack/stack.go" />
+        <option value="$PROJECT_DIR$/leetcode/intToRoman.go" />
       </list>
     </option>
   </component>
@@ -237,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build minDistance.go">
+  <component name="RunManager" selected="Go Build.go build intToRoman.go">
     <configuration name="go build addTwoNumbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -252,11 +251,11 @@
       <filePath value="$PROJECT_DIR$/leetcode/convertStringToZ.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lengthOfLongestSubstring.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build intToRoman.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/lengthOfLongestSubstring.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/intToRoman.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -275,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build intToRoman.go" />
         <item itemvalue="Go Build.go build minDistance.go" />
         <item itemvalue="Go Build.go build convertStringToZ.go" />
         <item itemvalue="Go Build.go build addTwoNumbers.go" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build lengthOfLongestSubstring.go" />
       </list>
     </recent_temporary>
   </component>
@@ -300,13 +299,13 @@
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948025" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948025" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" sideWeight="0.5051975" side_tool="true" visible="true" weight="0.26037195" />
       <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3253857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959327" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3253857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32819074" />
@@ -475,8 +474,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/data-structure/stack/stack.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="84">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/intToRoman.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
