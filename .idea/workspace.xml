@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1e76ad-8995-48ec-9cdb-c4bba33f3d02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/minDistance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/data-structure/stack/stack.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/data-structure/linkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/data-structure/linkedlist/linkedlist.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,20 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/minDistance.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/data-structure/stack/stack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/data-structure/linkedlist.go">
+        <entry file="file://$PROJECT_DIR$/basic/data-structure/linkedlist/linkedlist.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+            <state>
+              <caret column="18" selection-start-column="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -88,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -130,10 +140,12 @@
         <option value="$PROJECT_DIR$/basic/data-structure/README.md.go" />
         <option value="$PROJECT_DIR$/basic/data-structure/README.md" />
         <option value="$PROJECT_DIR$/basic/data-structure/linkedlist.go" />
-        <option value="$PROJECT_DIR$/basic/data-structure/main.go" />
         <option value="$PROJECT_DIR$/leetcode/addTwoNumbers.go" />
         <option value="$PROJECT_DIR$/leetcode/convertStringToZ.go" />
         <option value="$PROJECT_DIR$/leetcode/minDistance.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/stack.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/main.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/stack/stack.go" />
       </list>
     </option>
   </component>
@@ -157,6 +169,26 @@
               <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data-structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data-structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linkedlist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data-structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stack" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -186,6 +218,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/data-structure/linkedlist" />
+      <recent name="$PROJECT_DIR$/basic/data-structure/stack" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,13 +300,13 @@
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4948025" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948025" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" sideWeight="0.5051975" side_tool="true" visible="true" weight="0.26037195" />
       <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3253857" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3253857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32819074" />
@@ -360,23 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/linkedlist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
@@ -430,8 +451,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/minDistance.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/linkedlist/linkedlist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/stack/stack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
