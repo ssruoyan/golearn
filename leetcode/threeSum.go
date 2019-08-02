@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 func main() {
-	arr := threeSum([]int{1, 3, 2, 5, 4, 2, 6, 9, 8, 11, 22, 10, 5}, 12)
+	arr := threeSum([]int{1, 0, -1, 3, 2, 9, -2, -4, 6}, 0)
 	fmt.Println(arr)
 }
 
@@ -20,6 +20,10 @@ func main() {
  * 4. 每次循环判断当前值是否与上一个值相同，如果相同则跳过进入下一步
  */
 func threeSum(nums []int, m int) [][]int {
+	if nums == nil || len(nums) < 3 {
+		return nil
+	}
+
 	sort(nums)
 
 	var rtn = make([][]int, 0, len(nums))
@@ -34,14 +38,14 @@ func threeSum(nums []int, m int) [][]int {
 			for l < r {
 				if a+nums[l]+nums[r] == m {
 					rtn = append(rtn, []int{a, nums[l], nums[r]})
-					l++
-					r--
-					for nums[l] == nums[l + 1] {
+					for l < r && nums[l] == nums[l + 1] {
 						l ++
 					}
-					for nums[r] == nums[r - 1] {
+					for r > l && nums[r] == nums[r - 1] {
 						r --
 					}
+					l++
+					r--
 				} else if a+nums[l]+nums[r] > m {
 					r --
 				} else {
