@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/ssruoyan/golearn/leetcode/tool"
+)
 
 func main() {
 	d := minDistance("memberofthisclass", "mes")
@@ -36,7 +39,7 @@ func minDistance(s1 string, s2 string) int {
 	s1Len := len(s1)
 	s2Len := len(s2)
 
-	D := make2DArr(s1Len + 1, s2Len + 1)
+	D := tool.Make2DArr(s1Len + 1, s2Len + 1)
 
 	for i := 0; i <= s1Len; i++ {
 		for j := 0; j <= s2Len; j ++ {
@@ -48,33 +51,11 @@ func minDistance(s1 string, s2 string) int {
 				if string(s1[i - 1]) == string(s2[j - 1]) {
 					D[i][j] = D[i - 1][j - 1]
 				} else {
-					D[i][j] = min(D[i][j-1], D[i-1][j-1], D[i - 1][j]) + 1
+					D[i][j] = tool.Min(D[i][j-1], D[i-1][j-1], D[i - 1][j]) + 1
 				}
 			}
 		}
 	}
 
 	return D[s1Len][s2Len]
-}
-
-func min(arr ...int) int {
-	rtn := arr[0]
-
-	for _, x := range arr {
-		if x < rtn {
-			rtn = x
-		}
-	}
-
-	return rtn
-}
-
-func make2DArr(len1 int, len2 int) [][]int {
-	m := make([][]int, len1)
-
-	for i := 0; i < len1; i ++ {
-		m[i] = make([]int, len2)
-	}
-
-	return m
 }

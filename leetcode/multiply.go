@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/ssruoyan/golearn/leetcode/tool"
 )
 
 func main() {
@@ -21,8 +22,8 @@ func multiply(num1 string, num2 string) string {
 		return "0"
 	}
 
-	num1 = Reverse(num1)
-	num2 = Reverse(num2)
+	num1 = tool.Reverse(num1)
+	num2 = tool.Reverse(num2)
 
 	len1 := len(num1)
 	len2 := len(num2)
@@ -39,8 +40,6 @@ func multiply(num1 string, num2 string) string {
 			arr[i + j] += int(n1) * int(n2)
 		}
 	}
-
-	fmt.Println(arr)
 
 	rtn := ""
 	var curry int = 0
@@ -62,13 +61,5 @@ func multiply(num1 string, num2 string) string {
 		rtn =  rtn + string(curry + '0')
 	}
 
-	return Reverse(rtn)
-}
-
-func Reverse(s string) string {
-	runes := []rune(s)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-	return string(runes)
+	return tool.Reverse(rtn)
 }
