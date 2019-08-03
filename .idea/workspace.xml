@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1e76ad-8995-48ec-9cdb-c4bba33f3d02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/basic/struct.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/struct.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/maxArea.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/tool/max.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/tool/min.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/minDistance.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="79" column="1" lean-forward="true" selection-start-line="71" selection-end-line="79" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/intToRoman.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state>
+              <caret line="59" selection-start-line="59" selection-end-line="69" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,18 +30,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/multiply.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-710">
+            <state>
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/struct.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <first_editor>
+                <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,18 +50,49 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/面向对象.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/data-structure/linkedlist/linkedlist.go">
+        <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.go">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" selection-start-column="8" selection-end-column="18" />
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/maxArea.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <folding>
+                <element signature="e#14#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/tool/max.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/tool/min.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" lean-forward="true" selection-start-line="2" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -75,20 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state>
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/lengthOfLongestSubstring.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +146,15 @@
         <option value="$PROJECT_DIR$/basic/面向对象.md" />
         <option value="$PROJECT_DIR$/leetcode/threeSum.go" />
         <option value="$PROJECT_DIR$/basic/struct.md" />
+        <option value="$PROJECT_DIR$/leetcode/min.go" />
+        <option value="$PROJECT_DIR$/leetcode/utils/min.go" />
+        <option value="$PROJECT_DIR$/leetcode/utils/max.go" />
+        <option value="$PROJECT_DIR$/leetcode/utils/util.go" />
+        <option value="$PROJECT_DIR$/leetcode/util/util.go" />
+        <option value="$PROJECT_DIR$/leetcode/tool/util.go" />
+        <option value="$PROJECT_DIR$/leetcode/tool/max.go" />
+        <option value="$PROJECT_DIR$/leetcode/tool/min.go" />
+        <option value="$PROJECT_DIR$/leetcode/maxArea.go" />
       </list>
     </option>
   </component>
@@ -151,17 +173,18 @@
           <expand>
             <path>
               <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Go/src/github.com/ssruoyan/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
               <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/GayHub/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Go/src/github.com/ssruoyan/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Go/src/github.com/ssruoyan/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tool" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -185,10 +208,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/utils" />
       <recent name="$PROJECT_DIR$/basic" />
       <recent name="$PROJECT_DIR$/basic/data-structure/linkedlist" />
       <recent name="$PROJECT_DIR$/basic/data-structure/stack" />
@@ -206,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build threeSum.go">
+  <component name="RunManager" selected="Go Build.go build maxArea.go">
     <configuration name="go build intToRoman.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -222,11 +246,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build minDistance.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build maxArea.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearn" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/minDistance.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/maxArea.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build multiply.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -246,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build maxArea.go" />
         <item itemvalue="Go Build.go build threeSum.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build multiply.go" />
         <item itemvalue="Go Build.go build intToRoman.go" />
-        <item itemvalue="Go Build.go build minDistance.go" />
       </list>
     </recent_temporary>
   </component>
@@ -271,8 +296,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49454546" visible="true" weight="0.2639485" />
-      <window_info id="Structure" order="1" sideWeight="0.50545454" side_tool="true" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84909093" visible="true" weight="0.26752505" />
+      <window_info id="Structure" order="1" sideWeight="0.1509091" side_tool="true" visible="true" weight="0.26752505" />
       <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -374,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/asm_amd64.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28056">
@@ -429,27 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/面向对象.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/minDistance.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="79" column="1" lean-forward="true" selection-start-line="71" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -467,9 +464,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/util/min.go" />
+    <entry file="file://$PROJECT_DIR$/leetcode/util/max.go" />
+    <entry file="file://$PROJECT_DIR$/leetcode/minDistance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="59" selection-start-line="59" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/multiply.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-710">
+        <state>
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
@@ -482,10 +488,61 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <first_editor>
+            <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/面向对象.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tool/min.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="2" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/tool/max.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/maxArea.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="e#14#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
