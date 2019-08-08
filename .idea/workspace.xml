@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1e76ad-8995-48ec-9cdb-c4bba33f3d02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/data-structure/quene/quene.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/longestValidParentheses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/data-structure/queue/queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/data-structure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/data-structure/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/data-structure/quene/quene.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,27 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16440">
-              <caret line="689" selection-start-line="689" selection-end-line="689" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/letterCombinations.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/lengthOfLongestSubstring.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,19 +55,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/data-structure/quene/quene.go">
+        <entry file="file://$PROJECT_DIR$/basic/data-structure/queue/queue.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/data-structure/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/longestValidParentheses.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="249">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -135,7 +136,6 @@
         <option value="$PROJECT_DIR$/basic/ListNode.go" />
         <option value="$PROJECT_DIR$/basic/linkedlist.go" />
         <option value="$PROJECT_DIR$/basic/data-structure/README.md.go" />
-        <option value="$PROJECT_DIR$/basic/data-structure/README.md" />
         <option value="$PROJECT_DIR$/basic/data-structure/linkedlist.go" />
         <option value="$PROJECT_DIR$/leetcode/addTwoNumbers.go" />
         <option value="$PROJECT_DIR$/leetcode/convertStringToZ.go" />
@@ -167,8 +167,12 @@
         <option value="$PROJECT_DIR$/leetcode/findSerialSubString.go" />
         <option value="$PROJECT_DIR$/leetcode/minWindow.go" />
         <option value="$PROJECT_DIR$/leetcode/nextPermutation.go" />
-        <option value="$PROJECT_DIR$/basic/data-structure/quene/quene.go" />
         <option value="$PROJECT_DIR$/leetcode/longestValidParentheses.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/quene/quene.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/queen/quene.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/queue/quene.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/queue/queue.go" />
+        <option value="$PROJECT_DIR$/basic/data-structure/README.md" />
       </list>
     </option>
   </component>
@@ -204,7 +208,7 @@
               <item name="~/Go/src/github.com/ssruoyan/golearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="data-structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="quene" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="queue" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="golearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -329,12 +333,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8443223" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8443223" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" sideWeight="0.15567766" side_tool="true" visible="true" weight="0.27825466" />
       <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.32923833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,13 +402,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -487,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -608,17 +598,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structure/quene/quene.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/longestValidParentheses.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="249">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/longestValidParentheses.go">
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/queue/queue.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structure/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
