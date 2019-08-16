@@ -25,16 +25,15 @@ func maxArea(height []int) int {
 		return 0
 	}
 
-	i, j, area, times := 0, len(height) - 1, 0, 0
+	i, j, area := 0, len(height) - 1, 0
 
 	for i < j {
 		h := height[i]
 
 		if height[i] > height[j] { h = height[j] }
 
-		times++
-
 		newArea := (j - i) * h
+
 		if newArea > area {
 			area = newArea
 		}
@@ -51,7 +50,6 @@ func maxArea(height []int) int {
 			j --
 		}
 	}
-	fmt.Println(times)
 
 	return area
 }
