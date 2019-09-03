@@ -6,9 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(partition("aab"))
+	fmt.Println(partition("ababbbabbaba"))
 }
-
 /**
  * ========== 分割回文字符串 ===========
  * 给定一个字符串 s，将字符串分割成多个子串，使得每个子串都是回文串。返回 s 所有可能的分割方案。
@@ -23,16 +22,20 @@ func partition(s string) [][]string {
 	return res
 }
 
-func slice(s string, tmp []string, res *[][]string) {
+func slice(s string, stack []string, res *[][]string) {
+	// 如果已经解决完最后一个字符，则表示分割结束，存储分割结果
 	if s == "" {
-		*res = append(*res, tmp)
+		*res = append(*res, stack)
 	}
-	for i := 0; i < len(s); i++ {
-		sl := s[0:i]
-
-		if sl == tool.Reverse(sl) {
-			nt := append(tmp, s[:i])
-			slice(s[i:], nt, res)
+	for i := 1; i <= len(s); i++ {
+		ss := s[:i]
+		if ss == tool.Reverse(ss) {
+			// 如果是回文串则存下来，slice 需要拷贝
+			tmp := make([]string, len(stack))
+			copy(tmp, stack)
+			tmp = append(tmp, ss)
+			// 继续分割剩余子串的回文串
+			slice(s[i:], tmp, res)
 		}
 	}
 }
