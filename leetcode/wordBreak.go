@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println(wordBreak("catsandog", []string{"cats", "dog", "sand", "an", "cat"}))
+	fmt.Println(wordBreak2("catandog", []string{"cats", "dog", "and", "an", "cat", "og"}))
 }
 
 /**
@@ -33,4 +35,47 @@ func wordBreak(s string, wordDict []string ) bool {
 	}
 
 	return DP[length]
+}
+
+/**
+ * ========== 单词拆分2 ==========
+ * 给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict
+ * 在字符串中增加空格来构建一个句子，使得句子中所有的单词都在词典中。返回所有这些可能的句子。
+ * ========== 解题思路 ==========
+ */
+func wordBreak2(s string, wordDict []string) []string {
+	dict := make(map[string]bool)
+
+	for _, v := range wordDict {
+		dict[v] = true
+	}
+
+	var rtn []string
+
+	breakWord(s, &rtn, "", dict)
+
+	return rtn
+}
+
+func breakWord(s string, rtn *[]string, stack string, dict map[string]bool) {
+	if s == "" {
+		fmt.Println(stack)
+		*rtn = append(*rtn, stack)
+	}
+
+	for i := 1; i <= len(s); i ++ {
+		ss := s[:i]
+
+		if dict[ss] == true {
+			tmp := stack
+			if tmp == "" {
+				tmp = ss
+			} else {
+				tmp = tmp + " " + ss
+			}
+
+			breakWord(s[i:], rtn, tmp, dict)
+		}
+
+	}
 }
