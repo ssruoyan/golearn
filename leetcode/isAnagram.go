@@ -16,6 +16,10 @@ func main() {
 func isAnagram(s string, t string) bool {
 	iMap := make(map[int32]int)
 
+	if s == t {
+		return false
+	}
+
 	for _, v := range s {
 		iMap[v - 'a']++
 	}
